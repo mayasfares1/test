@@ -3,6 +3,10 @@ package com.company;
 public class Main extends FleetOfCars {
 
     static Car car;
+
+    public Main() {
+    }
+
     public static void main(String[] args) {
 
         Car car = new DieselCar("Honda","Honda","Civic",2,30,false);
@@ -19,6 +23,7 @@ public class Main extends FleetOfCars {
         fleetOfCars.addCar(car3);
         System.out.println(fleetOfCars.toString());
         System.out.println(fleetOfCars.getTotalRegistrationFeeForFleet());
+
 
     }
 

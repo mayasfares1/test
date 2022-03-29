@@ -4,9 +4,8 @@ public class NewFeature {
 
     @java.lang.Override
     public java.lang.String toString() {
-        return "NewFeature{}";
+        return "This is a new feature";
     }
 
-    System.out.println("this is a new feature");
 
 }

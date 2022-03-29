@@ -6,5 +6,8 @@ public class DieselTruck extends DieselCar{
         super(registrationNumber, make, model, numberOfDoors, kmPrLitre, hasParticleFilter);
     }
 
+    public class drive{
+
+    }
 
 }
